@@ -84,8 +84,8 @@ reg_nos.each  do |reg_no|
       end
     end
     csv<< [",",",",","]
-    count+=1
 end
+count+=1
 end
 puts "#{count} Results Scraped!"
 puts "Results saved in '#{filename}.csv'. You can import this file into Excel or any other spreadsheet software"
